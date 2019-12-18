@@ -8,7 +8,7 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-lg">
+    <nav class="navbar fixed-top navbar-expand-lg">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         Menu
       </button>
@@ -51,8 +51,26 @@
         </form>
       </div>
     </nav>
+    <br><br><br>
 
-
+    <div class="container">
+      <header>
+        <div class="content">
+        <h1>
+          <p></p>
+          Full-Stack Developer
+          <p></p>
+        </h1>
+        <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
+        <p>In addition to mastering HTML and CSS, he/she also knows how to:</p>
+        <ul>
+          <li>Program a browser (like using JavaScript, jQuery, Angular, or Vue)</li>
+          <li>Program a server (like using PHP, ASP, Python, or Node)</li>
+          <li>Program a database (like using SQL, SQLite, or MongoDB)</li>
+        </ul>
+      </div>
+      </header>
+    </div>
     <div class="container">
       <p></p>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
@@ -95,74 +113,109 @@
       </div>
     </div>
 
+    <br><br>
 
     <div class="container">
-      <div class="content">
-        <h1>
-          <p></p>
-          Full-Stack Developer
-          <p></p>
-        </h1>
-        <p>A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he/she also knows how to: Program a browser (like using JavaScript, jQuery, Angular, or Vue) Program a server (like using PHP, ASP, Python, or Node)</p>
-        <p>In addition to mastering HTML and CSS, he/she also knows how to:</p>
-        <ul>
-          <li>Program a browser (like using JavaScript, jQuery, Angular, or Vue)</li>
-          <li>Program a server (like using PHP, ASP, Python, or Node)</li>
-          <li>Program a database (like using SQL, SQLite, or MongoDB)</li>
-        </ul>
-      </div>
-      <br>
-      <br>
       <div class="row">
-        <div class="col-sm">
-          <abbr title="Client side">
-            <h3>
-              Front-end Development
-            </h3>
-          </abbr>
-          <p>A front-end developer is a type of computer programmer that codes and creates the visual front-end elements of a software, application or website. He or she creates computing components/features that are directly viewable and accessible by the end user or client.</p>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Front-end Development</h5>
+              <p class="card-text"><p>A front-end developer is a type of computer programmer that codes and creates the visual front-end elements of a software, application or website. He or she creates computing components/features that are directly viewable and accessible by the end user or client.</p>
+              <a href="#" class="btn btn-primary">Go Here</a>
+            </div>
+          </div>
         </div>
-        <div class="col-sm">
-          <abbr title="Sever side">
-            <h3>
-            Back-end Development
-            </h3>
-          </abbr>
-          <p>A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system.</p>
+        <div class="col-sm-6">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Back-end Development</h5>
+              <p class="card-text"><p>A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system.</p>
+              <a href="#" class="btn btn-primary">Go Here</a>
+            </div>
+          </div>
         </div>
       </div>
 
     </div>
 
-    <br><br><br>
+    <br><br>
 
     <div class="container">
-      <form>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address:</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+      <div class="card">
+        <div class="card-header">
+          <h4>Sign Up</h4>
+        </div>
+        <div class="card-body">
+          <form>
+            <div class="form-group">
+              <label for="exampleInputEmail1">Email address:</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com" required>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Password</label>
+              <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
+              <label class="form-check-label" for="exampleCheck1">Check me out</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="card-footer text-muted">
           <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
         </div>
-        <div class="form-group">
-          <label for="exampleInputPassword1">Password</label>
-          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" required>
-        </div>
-        <div class="form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-          <label class="form-check-label" for="exampleCheck1">Check me out</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
     </div>
 
-    <br><br><br>
+    <br><br>
+
+    <div class="container">
+      <div class="card-deck">
+        <div class="card">
+          <img src="git.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">GitHub</h5>
+            <p class="card-text">GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="udemy.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Udemy</h5>
+            <p class="card-text">High-Quality & Affordable Courses - 30-Day Money Back Guarantee! Start Your Course Today. Join Over 30 Million People Learning Online at Udemy! Lifetime Access. Expert Instructions.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+        <div class="card">
+          <img src="stack.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Stack-overflow</h5>
+            <p class="card-text">Stack Overflow is a question and answer site for professional and enthusiast programmers. It's built and run by you as part of the Stack Exchange network of Q&A sites. With your help, we're working together to build a library of detailed answers to every question about programming.</p>
+          </div>
+          <div class="card-footer">
+            <small class="text-muted">Last updated 3 mins ago</small>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
 
     <footer class="footer text-xs-center">
       (c) Copyrights:<br>
-      <div>
+      <div class="footer">
         Designed and built with all the love in the world by the Akshit Thakur with the help of framework like bootstrap.
       </div>
     </footer>
+
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
