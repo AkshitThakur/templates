@@ -144,7 +144,7 @@
     <div class="container">
       <div class="card">
         <div class="card-header">
-          <h4>Sign Up</h4>
+          <h4>Log In</h4>
         </div>
         <div class="card-body">
           <form>
@@ -161,10 +161,68 @@
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+              Create Account
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+              <div class="modal-dialog modal-dialog-scrollable" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalScrollableTitle">Sign Up</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="user_name" class="col-form-label">Name:</label>
+                        <div class="row">
+                          <div class="col">
+                            <input id="user_name" type="text" class="form-control" placeholder="First name" required>
+                          </div>
+                          <div class="col">
+                            <input id="user_name" type="text" class="form-control" placeholder="Last name" required>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group">
+                        <label for="user_mail" class="col-form-label">Email:</label>
+                        <input type="email" class="form-control" id="user_mail" required>
+                      </div>
+                      <div class="form-group">
+                        <label for="user_number" class="col-form-label">Phone Number:</label>
+                        <input type="text" id="user_number" class="form-control" aria-describedby="passwordHelpInline" required>
+                        <small id="user_number" class="text-muted">
+                          Must be 10 digit long.
+                        </small>
+                      </div>
+                      <div class="form-group">
+                        <label for="message-text" class="col-form-label">Discription:</label>
+                        <textarea class="form-control" id="message-text"></textarea>
+                      </div>
+                      <div class="form-group">
+                        <label for="inputPassword6" class="col-form-label">Set Password:</label>
+                        <input type="password" id="inputPassword6" class="form-control" aria-describedby="passwordHelpInline" required>
+                        <small id="passwordHelpInline" class="text-muted">
+                          Must be 8-20 characters long.
+                        </small>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
+                        <button type="submit" class="btn btn-primary">Save Details</button>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </form>
         </div>
         <div class="card-footer text-muted">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
         </div>
       </div>
     </div>
@@ -214,6 +272,7 @@
         Designed and built with all the love in the world by the Akshit Thakur with the help of framework like bootstrap.
       </div>
     </footer>
+
 
 
 
