@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <link rel="stylesheet" href="first.css">
+    <link rel="stylesheet" href="/home/akshit/Desktop/mysite/first/first.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <meta charset="utf-8">
     <title></title>
@@ -35,7 +35,7 @@
             </a>
             <div class="
             dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Front-end Languages</a>
+              <a class="dropdown-item" href="/home/akshit/Desktop/mysite/first/front/front.html">Front-end Languages</a>
               <a class="dropdown-item" href="#">Back-end Languages</a>
               <div class="dropdown-divider"></div>
               <a class="dropdown-item" href="#">Server-side Languages</a>
@@ -71,46 +71,32 @@
       </div>
       </header>
     </div>
+
+    <br><br>
+
     <div class="container">
-      <p></p>
-      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
+      <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="d-block w-100" src="html.jpeg" alt="First slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>HTML</h5>
-              <p>Helps in adding content to our site</p>
-            </div>
+            <img src="full_first.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="css.jpeg" alt="Second slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>CSS</h5>
-              <p>Help to provide styles to our html content</p>
-            </div>
+            <img src="full_second.jpg" class="d-block w-100" alt="...">
           </div>
           <div class="carousel-item">
-            <img class="d-block w-100" src="bootstrap.jpeg" alt="Third slide">
-            <div class="carousel-caption d-none d-md-block">
-              <h5>Bootstrap</h5>
-              <p>It is a framework, provide predefined styled claa</p>
-            </div>
+            <img src="full_third.jpg" class="d-block w-100" alt="...">
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
       </div>
+
     </div>
 
     <br><br>
@@ -123,11 +109,11 @@
               <h5 class="card-title">Front-end Development</h5>
               <p class="card-text"><p>A front-end developer is a type of computer programmer that codes and creates the visual front-end elements of a software, application or website. He or she creates computing components/features that are directly viewable and accessible by the end user or client.</p>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#front_exampleModal">
                 Languages Used
               </button>
               <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="front_exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -136,13 +122,15 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body">
-                      <a href="#">HTML</a><br>
-                      <a href="#">CSS</a><br>
-                      <a href="#">Bootstrap</a><br>
-                      <a href="#">Javascript</a><br>
-                      <a href="#">jQuery</a><br>
-                      <a href="#">Angular</a><br>
+                    <div class="container">
+                      <div class="modal-body pop_up">
+                        <a href="#">HTML</a><br>
+                        <a href="#">CSS</a><br>
+                        <a href="#">Bootstrap</a><br>
+                        <a href="#">Javascript</a><br>
+                        <a href="#">jQuery</a><br>
+                        <a href="#">Angular</a><br>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -156,11 +144,11 @@
               <h5 class="card-title">Back-end Development</h5>
               <p class="card-text"><p>A back-end developer is a type of programmer who creates the logical back-end and core computational logic of a website, software or information system. The developer creates components and features that are indirectly accessed by a user through a front-end application or system.</p>
               <!-- Button trigger modal -->
-              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+              <button type="button" class="btn btn-outline-success" data-toggle="modal" data-target="#back_exampleModal">
                 Languages Used
               </button>
               <!-- Modal -->
-              <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal fade" id="back_exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
                 <div class="modal-dialog" role="document">
                   <div class="modal-content">
                     <div class="modal-header">
@@ -169,20 +157,18 @@
                         <span aria-hidden="true">&times;</span>
                       </button>
                     </div>
-                    <div class="modal-body">
-                      <a href="#">PHP</a><br>
-                      <a href="#">Python</a><br>
-                      <a href="#">Django</a><br>
-                      <a href="#">Java</a><br>
-                      <a href="#">SQl</a><br>
+                    <div class="container">
+                      <div class="modal-body pop_up">
+                        <a href="#">PHP</a><br>
+                        <a href="#">Python</a><br>
+                        <a href="#">Django</a><br>
+                        <a href="#">Java</a><br>
+                        <a href="#">SQl</a><br>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-
-
-
-
             </div>
           </div>
         </div>
@@ -211,22 +197,22 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalScrollable">
+            <button type="submit" class="btn btn-outline-primary">Submit</button>
+            <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#exampleModalScrollable">
               Create Account
             </button>
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-scrollable" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalScrollableTitle">Sign Up</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">&times;</span>
-                    </button>
-                  </div>
-                  <div class="modal-body">
+          </form>
+          <div class="modal fade" id="exampleModalScrollable" tabindex="-1" role="dialog" aria-labelledby="exampleModalScrollableTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-scrollable" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalScrollableTitle">Sign Up</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <div class="container">
                     <form class="create_account">
                       <div class="form-group">
                         <label for="user_name" class="col-form-label">Name:</label>
@@ -262,15 +248,15 @@
                         </small>
                       </div>
                       <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Exit</button>
-                        <button type="button" class="btn btn-primary">Save Details</button>
+                        <button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Exit</button>
+                        <button type="submit" class="btn btn-outline-success">Save Details</button>
                       </div>
                     </form>
                   </div>
                 </div>
               </div>
             </div>
-          </form>
+          </div>
         </div>
         <div class="card-footer text-muted">
           <small id="emailHelp" class="form-text text-muted">We'll never share your details with anyone else.</small>
