@@ -1,0 +1,39 @@
+body{
+  background-image: url(https://ak7.picdn.net/shutterstock/videos/32975587/thumb/1.jpg);
+}
+nav{
+  background-color: black;
+  border-radius: 2px;
+}
+nav button{
+  color: red;
+}
+div #pack_card{
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+div #def{
+  color: white;
+  background-color: black;
+}
+div #carouselExampleFade img{
+  height: 400px;
+}
+div .content{
+  font-size: 15px;
+}
+div .dropdown-menu:hover{
+  background-color: blue;
+}
+div .card{
+  background-color: black;
+  color: white;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+  background-color: black;
+  height: 200px;
+  color: white;
+}
