@@ -1,8 +1,9 @@
 body{
   background-image: url(https://st4.depositphotos.com/12659858/20022/v/600/depositphotos_200227218-stock-video-abstract-plexus-shapes-digital-communication.jpg);
 }
-.modal-body a:hover{
-  color: red;
+.pop_up a{
+  color: green;
+  padding: 2px;
 }
 div .modal{
   color: black;
@@ -28,10 +29,6 @@ header{
 }
 div .content{
   font-size: 15px;
-}
-div .carousel-item{
-  height: 400px;
-  background-size: cover;
 }
 div .dropdown-menu:hover{
   background-color: blue;
