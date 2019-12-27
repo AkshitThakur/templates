@@ -1,0 +1,21 @@
+
+nav{
+  background-color: black;
+  border-radius: 2px;
+}
+nav button{
+  color: red;
+}
+div .content{
+  font-size: 15px;
+}
+div .dropdown-menu:hover{
+  background-color: blue;
+}
+footer{
+  padding: 10px;
+  text-align: center;
+    background-color: black;
+    height: 200px;
+    color: white;
+}
